@@ -1,9 +1,9 @@
-import NavHeader from "./Pages/NavHeader";
-import Home from "./Pages/Home";
-import AboutUs from "./Pages/AboutUs";
-import ServicePage from "./Pages/ServicePage";
-import ContactUSPage from "./Pages/contactUsPage";
-import Faq from "./Pages/Faq";
+import NavHeader from "./NavHeader";
+import Home from "./Home";
+import AboutUs from "./AboutUs";
+import ServicePage from "./ServicePage";
+import ContactUSPage from "./contactUsPage";
+import Faq from "./Faq";
 
 const Homepage =() => {
     return (
