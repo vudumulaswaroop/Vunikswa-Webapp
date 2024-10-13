@@ -1,6 +1,6 @@
 /* Constants */
 
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -37,7 +37,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 /* Constants */
 
 /* Header Page Styles */
@@ -47,7 +47,6 @@
   justify-content: space-between;
   width: 100%;
   padding: 1rem 2rem;
-  position: fixed;
   top: -13px;
   left: 0;
   z-index: 1;
@@ -101,23 +100,21 @@
   min-height: 100vh;
   background-image: url(./images/img1.jpg);
   background-size: cover;
-  display: flex;
-  align-items: center;
+  /* align-items: center;
   justify-content: center;
-  flex-flow: column;
+  flex-flow: column; */
   text-align: center;
   padding: 0 1rem;
-  position: relative;
+  /* position: relative; */
   overflow: hidden !important;
+  color: #fff;
 }
 
 .home h1{
-  color: #fff;
   font-size: 5.5rem;
 }
 
 .home h2{
-  color: #fff;
   font-size: 3rem;
 }
 
@@ -158,7 +155,6 @@
 .about{
   height: 100vh;
   width: 100%;
-  text-align: center;
   position: relative;
   overflow: hidden;
   line-height: 10rem;
@@ -167,7 +163,7 @@
 
 .about .row{
   line-height: 4rem;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-around;
   padding: 0 4rem;
@@ -201,7 +197,7 @@
   flex-wrap: wrap;
   align-items: center;
   padding: 20px;
-  marggin: 20px
+  margin: 20px
 }
 .service-main .service-block .service-flexbox .service-block-items{
   flex: 1 0 30%;
