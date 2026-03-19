@@ -1,7 +1,7 @@
 const NavHeader =() => {
     return (
         <header className="header">
-            <a href="#home" className="logo"><img src='' alt="VUNIKSWA"/></a>
+            <a href="#home" className="logo"><img src='../images/Logo.PNG' alt="VUNIKSWA"/></a>
             <div className="fas fa-bars"></div>
             <nav className="navbar">
                 <ul>
